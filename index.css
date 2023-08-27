@@ -15,8 +15,7 @@ input{
   padding-right: 10px;
 }
 
-button{
-
+#input-btn{
   width: 120px;
   height: 35px;
   font-size: 14px;
@@ -31,8 +30,54 @@ button{
   cursor: pointer;
 }
 
-button:hover{
+#save-btn{
+  width: 120px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #5f9341;
+  color: #ffff;
+  border: 2px solid #5f9341;
+  letter-spacing: 3px;
+  margin-left: 7px;
+}
+
+#delete-btn{
+  width: 120px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #5f9341;
+  border: 2px solid #5f9341;
+  letter-spacing: 3px;
+  margin-left: 7px;
+}
+
+#input-btn:hover{
   color: #57cc99;
   background-color: #cce3de;
   transition: .5s;
+}
+
+
+
+ul{
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li{
+  margin-top: 5px;
+}
+
+li a{
+  color: #57cc99;
 }
